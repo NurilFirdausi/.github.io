@@ -1,27 +1,11 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-    <link rel="stylesheet" href="stylesheet.css">
-  </head>
-  <body>
-    <div class="header">
-      <div class="header-logo">Progate</div>
-      <div class="header-list">
-        <ul>
-          <li>About</li>
-          <li>Lessons</li>
-          <li>Contact Us</li>
-        </ul>
-      </div>
-    </div>
 
-    <div class="main">
-      <div class="copy-container">
-        <marquee bgcolor="cyan" width="400">Welcome To</marquee><br>
-        <marquee vspace="15" bgcolor="grey" width="400">FIA FASHION</marquee>
-      </div>
+<head>
+  <marquee width="600">Welcome</marquee><br>
+  <marquee scrollamount="15" width="600">Welcome To</marquee><br>
+    <title>Fia Fashion</title>
+</head>
       
   <body>
 <h1 align="center" >Fia Fashion</h1>
@@ -168,34 +152,26 @@
                   <th align="right">3</th> 
                   <th>Dannis</th> 
                   <th>Rp 80.000</th>
-             </tr>
-      
-      <div class="contact-form">
-        <h3 class="section-title">Hubungi kami</h3>
-        <p>Email (Wajib Diisi)</p>
-        <!-- Tambahkan tag <input> -->
-        <input>
-        
-        <p>Pesan (Wajib Diisi)</p>
-        <!-- Tambahkan tag <textarea> --> 
-        <textarea></textarea>
-        
-        <p>*Bidang Wajib Diisi</p>
-        <!-- Tambahkan tag <input> -->
-        <input class="contact-submit" type="submit" value="Kirim">
-        
-      </div>
-    </div>
+	      </tr>
+           </tbody>
+     </table>
+     <p> Selama masa pandemi, kami menyediakan pemesanan dengan via online. Silahkan isi Form dibawah ini(kirim ke no Wa: 085678987677):</p>
+     <form method="POST" action="proses.php">
+          <label for="nama">Nama</label>
+          <input type="text" id="nama"><br>
+          <label for="jenis busana">Jenis Busana</label> 
+          <input type="text" id="jenis busana"><br>
+ 	  <label for="bahan">Bahan</label> 
+          <input type="text" id="bahan"><br>
+          <label for="hp">Nomor HP</label> 
+          <input type="number" id="hp"><br>
+          <label for="pengiriman via: ">Pengiriman Via: </label> 
+          <input type="text" id="pengiriman via: "><br> 
+          <label for="submit">Simpan</label> 
+          <input type="reset" id="Batal"><br> 
+     </form>
+     <p> setelah mengisi form dan mengirim ke no Wa tertera, kami akan mengirimkan gambar-gambar dari busana sesuai bahan yang diinginkan.</p>
+    
+</body> 
 
-    <div class="footer">
-      <div class="footer-logo">Progate</div>
-      <div class="footer-list">
-        <ul>
-          <li>Tentang</li>
-          <li>Karier</li>
-          <li>Hubungi Kami</li>
-        </ul>
-      </div>
-    </div>
-  </body>
 </html>
